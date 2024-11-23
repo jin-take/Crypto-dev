@@ -1,0 +1,28 @@
+{
+  "name": "sol-dev",
+  "version": "1.0.0",
+  "description": "sol-dev",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon  --exec ts-node src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "@types/express": "^5.0.0",
+    "express": "^4.21.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "quicknode",
+  "version": "1.0.0",
+  "description": "100 API request per day",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stacks/blockchain-api-client": "^8.2.2",
+    "@stacks/network": "^7.0.2",
+    "@types/node-fetch": "^3.0.2",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "pnpm": "^9.14.2",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
